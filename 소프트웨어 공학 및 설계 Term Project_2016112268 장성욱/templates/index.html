@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+        <!--<link rel="stylesheet" href="static/style1.css" type="text/css"/>-->
+        <input type="file" id = "real-input" name="files1" accept="image/*" onchange="previewImage(this)" style="display:none;" />
+        <div align = "right"><button type="button" class="fas fa-sign-out-alt" style = "margin-right : 30px;" onclick = "myfunc();">Logout</button></div>
+        
+    </head>
+    <body>
+        <details open>
+            <summary>
+                <div class = "top">
+                    <h1>{{namehtml}}'s Diary</h1>
+                    <input type="text" id="input" placeholder="What did you do?" onKeypress="javascript:if(event.keyCode==13) click_event();"> 
+                    <button type="button" class="fas fa-plus" onclick="click_event();">POST</button>
+                    
+                </div>
+            </summary>
+            <div id="list"></div>
+            
+        </details>
+        
+        <input value={{namehtml}} type="text" hidden="hidden" id="myVariable" />
+        
+        
+    </body>
+    <script type = "text/javascript">
+    function myfunc(){
+        location.href = "/";
+    }
+    </script>
+    <script type="text/javascript" src="static/To_do_list.js"></script>
+    <script src="https://kit.fontawesome.com/f1fb370a81.js" crossorigin="anonymous"></script>
+</html>
+
