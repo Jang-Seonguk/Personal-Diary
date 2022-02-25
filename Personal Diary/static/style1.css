@@ -1,0 +1,114 @@
+h1{
+    font-size: 40px;
+    margin:5px;
+    padding-top: 70px;
+}
+.top, h1{
+    text-align:center;
+    background-color:rgb(87, 250, 209);
+    padding-bottom: 4px;
+}
+.middle{
+    padding-bottom: 40px;
+}
+input{
+    border-radius: 30px;
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button{
+    background-color: #ddd;
+    color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    
+}
+
+input, button{
+    border: none;
+}
+
+button:hover{
+    color: white;
+}
+
+span{
+    font-size: 22px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    width: 89%;
+    
+    
+    
+    padding : 0.5rem 1rem;
+    border : 2px solid rgba(128, 128, 128, 0.479);
+    border-radius: 15px;
+    margin : .20rem 0;
+    height : 200px;
+}
+
+span:hover, button:hover{
+    background-color: rgba(128, 128, 128, 0.479);
+    
+}
+
+#done span{
+    width: 93.5%;
+}
+
+span, button{
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+       
+}
+
+
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+#list, #done {
+    animation: open .5s ease-in-out;
+}
+
+@keyframes open {
+    0% {opacity: 0; margin-top: -20px}
+    100% {opacity: 1; margin-top: 0px}
+}
+
+@media all and (min-width:720px) and (max-width:1024px) {
+
+    span{
+        width: 75%;
+    }
+    #done span{
+        width: 85%;
+    }
+}
+
+@media all and (max-width:720px) {
+
+    span{
+        width: 55%;
+    }
+    #done span{
+        width: 70%;
+    }
+    
+ }
+
+.card {
+    padding : 0.5rem 1rem;
+    border : 1px solid #eee;
+    border-radius: 3px;
+    margin : .3rem 0;
+}
+

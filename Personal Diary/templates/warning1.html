@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+   <head>
+     
+   {% with messages = get_flashed_messages() %}
+   {% if messages %}
+      <script type="text/javascript">
+         alert("{{messages[-1]}}");
+      </script>
+   {%endif%}
+   {%endwith%}     
+   </head>
+   
+   {% extends "login_regist_form.html" %}
+   {% block content %}
+   
+   {% endblock %}
+   
+</html>
