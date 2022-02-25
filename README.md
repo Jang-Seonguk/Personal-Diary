@@ -27,6 +27,7 @@ Flask는 <a href="https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A
 회원가입이나 로그인과 같은 DB가 필요한 기능에는 SQLAlchemy를 사용하였는데 그 이유는 다음과 같습니다.
 
 DB를 구축하는데에 있어 ORM 방식이 유리하다고 생각하였는데,
+<br/>
 
 ### ORM 이란?
 
