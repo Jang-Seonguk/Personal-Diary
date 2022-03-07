@@ -163,52 +163,41 @@ def logout():
 
 
 
-### Prerequisites
-
-```
-torch==1.7..1
-transformers==4.3.3
-pytorch-lightning==1.3.8
-streamlit==0.72.0
-```
-
-
 ## Running
 
 
 ### <img src="https://img.shields.io/badge/Anaconda-F48220?style=flat-square&logo=Anaconda&logoColor=White"/> Promt 환경에서 실행합니다
 
 ```
-cd C:\Users\..\Desktop\summary_model
+cd C:\Users\..\Desktop\Personal Diary
+
 C:\Users\..\Desktop\summary_model> python app.py
 ```
 <br/>
 
 ### 실행화면
 
-![image](https://user-images.githubusercontent.com/60394246/154043322-2683ba2c-faea-4bdb-9fdc-388ba5c07aa1.png)
+![image](https://user-images.githubusercontent.com/60394246/156964070-161deb40-6fc0-4fee-a80d-641ea117994e.png)
 
+메인 페이지에서는 로그인 및 회원가입이 가능합니다.
+<br/><br/><br/>
 
-메세지 박스안에 요약하고자 하는 텍스트를 입력하면 됩니다.  
-요약 모델은 요약 결과와 키워드를 제공합니다.
-<br/><br/><br/><br/>
+![image](https://user-images.githubusercontent.com/60394246/156964122-1bd4d0c7-61f8-4381-a3e2-1329fb0745a4.png)
 
-**원문**
-
-![image](https://user-images.githubusercontent.com/60394246/154043035-d572f7d9-789e-4d6d-a4fc-5cc4ee047679.png)
-<br/><br/><br/><br/>
-
-### 실행 결과<br/>
-
-![image](https://user-images.githubusercontent.com/60394246/154044732-307f75fc-b632-4cd4-a886-d5790f8d0ad3.png)
+아이디와, 이메일 주소, 비밀번호를 이용하여 회원가입이 가능합니다.
 
 
 <br/><br/><br/>
 
-## License / 라이센스
+![image](https://user-images.githubusercontent.com/60394246/156964333-e0fa9bec-6ab1-4702-a331-a1192b89754a.png)
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jang-Seonguk/Capstone-Project/blob/56dc3090c50bd8899ccc59d2ab2cd36506449d51/LICENSE) file for details   
-이 프로젝트는 MIT 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE 파일을 참고하세요.
+what did you do? 라고 써있는 칸에 쓰고자 하는 내용을 작성하고 POST 버튼을 누르면
+
+작성한 시간과 함께 내용이 기록됩니다.
+
+<br/><br/><br/>
+
+
 
 
 
